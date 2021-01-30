@@ -12,6 +12,29 @@ async function generate(){
     sort_out()
     await sleep(64)
 }
+async function cylinder(cx,cy,cz,vox,radius,height){
+    var xend = cx+radius;
+    var yend = cy+height;
+    var zend = cz+radius;
+    for(var x=cx-radius;x<=xend;x++){
+        for(var z=cz-radius;z<=zend;z++){
+            var dx = x-cx;
+            var dz = z-cz;
+            if(Math.round(Math.sqrt(dx*dx+dz*dz))<=radius){
+                for(var y=cy;y<yend;y++){
+                    if(y+3>yend){
+                        if(voxels.getVoxel(x,y,z)==voxels.id('air')){
+                            if(x>10&&z>10){
+                                voxels.setVoxel(x,y,z,vox);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 //需要在地图放置以下模型：树.vb，花.vb，茂盛的草.vb
 async function sort_out(){
     for(var y=20;y<64;y++){//扫描20~64层的格子
