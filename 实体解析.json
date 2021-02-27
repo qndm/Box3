@@ -1,0 +1,364 @@
+{
+    "mesh ": "",
+    "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "meshOrientation": {
+        "w": 0,
+        "x": 0,
+        "y": 0,
+        "z": 1
+    },
+    "meshScale": {
+        "x": 0.015625,
+        "y": 0.015625,
+        "z": 0.015625
+    },
+    "meshColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+    },
+    "meshInvisible": false,
+    "meshEmissive": 0,
+    "meshMetalness": 0,
+    "meshShininess": 0,
+    "meshOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "bounds": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+    },
+    "collides": true,
+    "fixed": false,
+    "friction": 0,
+    "gravity": true,
+    "mass": 1,
+    "restitution": 0,
+    "velocity": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "contactForce": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "entityContacts": [],
+    "voxelContacts": [],
+    "fluidContacts": [],
+    "enableInteract": false,
+    "interactRadius": 16,
+    "interactHint": "",
+    "interactColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+    },
+    "isPlayer": false,
+    "player": {
+        "name": "player",
+        "boxId": "",
+        "userKey": "",
+        "spawnPoint": {
+            "x": 64,
+            "y": 140,
+            "z": 64
+        },
+        "movementBounds": {
+            "lo": {
+                "x": -50,
+                "y": -50,
+                "z": -50
+            },
+            "hi": {
+                "x": 178,
+                "y": 178,
+                "z": 178
+            }
+        },
+        "muted": false,
+        "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+        },
+        "emissive": 0,
+        "invisible": false,
+        "showName": true,
+        "scale": 1,
+        "metalness": 0,
+        "shininess": 0,
+        "url": {
+            "hash": "",
+            "host": "",
+            "hostname": "",
+            "port": "",
+            "href": "",
+            "origin": "",
+            "username": "",
+            "password": "",
+            "pathname": "",
+            "protocol": "",
+            "search": "",
+            "searchParams": {}
+        },
+        "dead": false,
+        "cameraMode": "FOLLOW",
+        "cameraEntity": null,
+        "cameraPosition": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "cameraTarget": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "cameraUp": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "enable3DCursor": false,
+        "enableAction0": true,
+        "enableAction1": true,
+        "action0Button": false,
+        "action1Button": false,
+        "walkButton": false,
+        "crouchButton": false,
+        "jumpButton": false,
+        "facingDirection": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+        },
+        "canFly": false,
+        "spectator": false,
+        "enableJump": true,
+        "enableDoubleJump": true,
+        "walkSpeed": 0.22,
+        "walkAcceleration": 0.19,
+        "runSpeed": 0.4,
+        "runAcceleration": 0.35,
+        "jumpPower": 0.96,
+        "jumpSpeedFactor": 0.85,
+        "jumpAccelerationFactor": 0.55,
+        "doubleJumpPower": 0.9,
+        "crouchSpeed": 0.1,
+        "crouchAcceleration": 0.09,
+        "flySpeed": 2,
+        "flyAcceleration": 2,
+        "swimSpeed": 0.4,
+        "swimAcceleration": 0.1,
+        "moveState": "fall",
+        "walkState": "",
+        "action0Sound": {
+            "sample": "",
+            "radius": 32,
+            "gain": 1,
+            "gainRange": 0,
+            "pitch": 1,
+            "pitchRange": 0
+        },
+        "action1Sound": {
+            "sample": "",
+            "radius": 32,
+            "gain": 1,
+            "gainRange": 0,
+            "pitch": 1,
+            "pitchRange": 0
+        },
+        "crouchSound": {
+            "sample": "",
+            "radius": 32,
+            "gain": 1,
+            "gainRange": 0,
+            "pitch": 1,
+            "pitchRange": 0
+        },
+        "jumpSound": {
+            "sample": "",
+            "radius": 32,
+            "gain": 1,
+            "gainRange": 0,
+            "pitch": 1,
+            "pitchRange": 0
+        },
+        "doubleJumpSound": {
+            "sample": "",
+            "radius": 32,
+            "gain": 1,
+            "gainRange": 0,
+            "pitch": 1,
+            "pitchRange": 0
+        },
+        "landSound": {
+            "sample": "",
+            "radius": 32,
+            "gain": 1,
+            "gainRange": 0,
+            "pitch": 1,
+            "pitchRange": 0
+        },
+        "enterWaterSound": {
+            "sample": "",
+            "radius": 32,
+            "gain": 1,
+            "gainRange": 0,
+            "pitch": 1,
+            "pitchRange": 0
+        },
+        "leaveWaterSound": {
+            "sample": "",
+            "radius": 32,
+            "gain": 1,
+            "gainRange": 0,
+            "pitch": 1,
+            "pitchRange": 0
+        },
+        "swimSound": {
+            "sample": "",
+            "radius": 32,
+            "gain": 1,
+            "gainRange": 0,
+            "pitch": 1,
+            "pitchRange": 0
+        },
+        "spawnSound": {
+            "sample": "",
+            "radius": 32,
+            "gain": 1,
+            "gainRange": 0,
+            "pitch": 1,
+            "pitchRange": 0
+        },
+        "stepSound": {
+            "sample": "",
+            "radius": 32,
+            "gain": 1,
+            "gainRange": 0,
+            "pitch": 1,
+            "pitchRange": 0
+        },
+        "startFlySound": {
+            "sample": "",
+            "radius": 32,
+            "gain": 1,
+            "gainRange": 0,
+            "pitch": 1,
+            "pitchRange": 0
+        },
+        "stopFlySound": {
+            "sample": "",
+            "radius": 32,
+            "gain": 1,
+            "gainRange": 0,
+            "pitch": 1,
+            "pitchRange": 0
+        },
+        "music": {
+            "sample": "",
+            "radius": 32,
+            "gain": 1,
+            "gainRange": 0,
+            "pitch": 1,
+            "pitchRange": 0
+        },
+        "colorLUT": ""
+    },
+    "id": "",
+    "tags": [],
+    "destroyed": false,
+    "enableDamage": false,
+    "entity.showHealthBar": true,
+    "hp": 100,
+    "maxHp": 100,
+    "particleRate": 0,
+    "particleRateSpread": 0,
+    "particleLimit": 100,
+    "particleLifetime": 10,
+    "particleLifetimeSpread": 0,
+    "particleSize": [1, 1, 1, 1, 1],
+    "particleSizeSpread": 0,
+    "particleColor": [{
+        "r": 1,
+        "g": 1,
+        "b": 1
+    }, {
+        "r": 1,
+        "g": 1,
+        "b": 1
+    }, {
+        "r": 1,
+        "g": 1,
+        "b": 1
+    }, {
+        "r": 1,
+        "g": 1,
+        "b": 1
+    }, {
+        "r": 1,
+        "g": 1,
+        "b": 1
+    }],
+    "particleVelocity:": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "particleVelocitySpread": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "particleAcceleration": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "particleDamping": 0,
+    "particleNoise": 0,
+    "particleNoiseFrequency": 1,
+    "chatSound": {
+        "sample": "",
+        "radius": 32,
+        "gain": 1,
+        "gainRange": 0,
+        "pitch": 1,
+        "pitchRange": 0
+    },
+    "hurtSound": {
+        "sample": "",
+        "radius": 32,
+        "gain": 1,
+        "gainRange": 0,
+        "pitch": 1,
+        "pitchRange": 0
+    },
+    "dieSound": {
+        "sample": "",
+        "radius": 32,
+        "gain": 1,
+        "gainRange": 0,
+        "pitch": 1,
+        "pitchRange": 0
+    },
+    "interactSound": {
+        "sample": "",
+        "radius": 32,
+        "gain": 1,
+        "gainRange": 0,
+        "pitch": 1,
+        "pitchRange": 0
+    }
+}
