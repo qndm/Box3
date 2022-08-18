@@ -9,7 +9,7 @@ world.onTick(() => {
                 if (voxels.getVoxelId(x, y, z) != 0) _0 = true;
             }
         }
-        if (!_0 && entity.player.moveState != Box3PlayerMoveState.FALL && entity.player.moveState != Box3PlayerMoveState.JUMP && entity.player.moveState != Box3PlayerMoveState.DOUBLE_JUMP && entity.player.moveState != Box3PlayerMoveState.GROUND && entity.player.moveState != Box3PlayerMoveState.FLYING) {
+        if (!_0 && entity.player.moveState != Box3PlayerMoveState.FALL && entity.player.moveState != Box3PlayerMoveState.JUMP && entity.player.moveState != Box3PlayerMoveState.DOUBLE_JUMP && entity.player.moveState != Box3PlayerMoveState.FLYING) {
             entity.player.directMessage('检测到用户开挂行为');
         }
     });
