@@ -14,4 +14,4 @@ world.onTick(() => {
         }
     });
 });
-//吐槽一句：box3plus的飞行槽做的真的364（water）
+//吐槽一句：box3plus的飞行做的真的364（water）
