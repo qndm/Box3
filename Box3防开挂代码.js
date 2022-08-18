@@ -1,7 +1,7 @@
 world.onTick(() => {
     world.querySelectorAll('player').forEach(entity => {
         if (entity.player.moveState == Box3PlayerMoveState.FLYING && !entity.player.canFly) {
-            entity.player.directMessage('检测到用户开挂行为');
+            entity.player.directMessage('检测到用户开挂行为');//这个可以自己改，下面那个同理
         }
         var _0 = false, y = Math.floor(entity.position.y - 2);
         for (let x = Math.floor(entity.position.x - 1); x < Math.ceil(entity.position.x + 1); x++) {
